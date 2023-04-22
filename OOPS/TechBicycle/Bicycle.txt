@@ -1,0 +1,19 @@
+class Bicycle{
+    protected static int speed;
+    protected static int gear;
+    public Bicycle(int speed,int gear){
+        this.speed=speed;
+        this.gear=gear;
+    }
+    public void brake(int dec){
+        speed-=dec;
+        if(speed<0)
+        this.speed=0;
+    }
+    public void applyGear(int inc){
+        gear+=1;
+        if(gear==6)
+        gear=5;
+        speed+=15;
+    }
+}
