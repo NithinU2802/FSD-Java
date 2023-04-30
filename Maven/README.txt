@@ -1,4 +1,7 @@
-                    Maven is used to develope java-based project which is implemented by various dependencies in order to
+                   
+                   # 🤔Hey it's pretty look as more theory but it's important before get into practicals✨..!
+                   
+                    ♛ Maven is used to develope java-based project which is implemented by various dependencies in order to
     regulate the functionality of the project. This is nothing but a class of files developed by developers who need to know that some 
     sort of methods or class need to be used by every developers. Inorder to make work or every developer easier Maven was
     introduced...
@@ -14,7 +17,7 @@
     - Maven is an popular open-source build tool developed by Apache Group to build and publish and deploy several projects at one.
     - Maven is written java and is used to build project written in c#, Scala, Ruby... Etc..!
 
-    # Maven is based on Project Object Model and focuses of simplification and standardization of the building process.
+    # ♛ Maven is based on Project Object Model and focuses of simplification and standardization of the building process.
 
     Operations of Maven:
               - Builds
