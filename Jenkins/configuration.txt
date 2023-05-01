@@ -1,0 +1,7 @@
+      # Download jenkins from https://www.jenkins.io/download/ and continue the process of download..!
+
+              - Then normal configuation of download as every application give next and be aware to choose that
+        I am here to learn so just make host to my local machine...
+              - Further select port and give finish..!
+              - Now move to browser and search https://localhost:8080 to open 🤵Jenkins as we find that it is 
+        like an admin panel Further we need to move on learning..
