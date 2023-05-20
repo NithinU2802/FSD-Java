@@ -106,3 +106,13 @@
             -> Gutter is the space between rows and columns in a grid.
         
         Above GridLayout.html is an example for grid layout...!
+
+# CSS FlexBox 
+        -> Allow us to easily format HTML that can create flexible responsive strcture without using float or positioning...!
+        -> We can easily create layouts for complex application and web pages using flexbox.
+
+        -> The ability ti akter item width and height to best fit in its containers available in free space.
+        -> Flexbox is direction-agnostic(depends on model).
+        -> most effective small scale layout.
+
+        Above FlexBox.html is an example for it...!
