@@ -121,3 +121,23 @@
         -> Display is an property to change or switch the container property of the webpage towards the different types as we learn some in above.
         -> As default display is in block.
         Lets Move to example display.html file...!
+
+# CSS Positioning
+  Some properties of CSS Positioning
+        -> CSS Position Property.
+        -> CSS Static Position.
+        -> CSS Fixed Position.
+        -> CSS Relative Position.
+        -> CSS Absolute Position.
+
+        CSS Position property is used to determine how an element positioned on a webpage. The top, right, bottom and left properties determine the final location oppositioned elements.
+
+    CSS Static Position:
+            The Position of the HTML elements is static by default. The position is set according to normal flow of the page. It is not affected by top, bottom, left and right properties.
+    CSS Fixed Position:
+            The Fixed positioning property positions the element relative to the screen's viewport and stays fixed on the screen when scrolling.
+    CSS Relative Position:
+            The relative positioning position the element relative to where its normal position would have been.
+    CSS Absolute Position:
+            The absolute value position the element absolutely relative to its container. With absolute positioning, you can place an element anywhere on a page.
+    Above file explain the properties...!
