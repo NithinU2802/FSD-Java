@@ -84,5 +84,25 @@
         -> The padding area is the space around the content area and within the border box.
 
         Above file BoxModel.html is provide an practical example of BoxModel...!
+
+# Grid Layout 
+        -> A grid is a set of intersecting horizontal and vertical lines defining rows and columns placed onto a layout said to be grid layout...!
+        -> CSS Grid Layout is most popular two dimensional grid system to CSS, Grids can be used to layout major page areas or small user interface elements...!
         
+        Simply it is like a table structure that can used to track and guide areas to manage items as grid items..!
+        Items places in the grid area which is regulated properly....!
+
+        Features:
+            -> Fixed and Flexible track size.
+            -> Item placement.
+            -> Creation of additional tracks to hold content.
+            -> Control of overlapping content.
         
+        Basic Terms:
+            -> Dividing line to make a structure.
+            -> Either vertical or horizontal.
+            -> Grid row is the horizontal.
+            -> Grid cell a single unit of CSS grid.
+            -> Gutter is the space between rows and columns in a grid.
+        
+        Above GridLayout.html is an example for grid layout...!
