@@ -116,3 +116,8 @@
         -> most effective small scale layout.
 
         Above FlexBox.html is an example for it...!
+
+# CSS Display
+        -> Display is an property to change or switch the container property of the webpage towards the different types as we learn some in above.
+        -> As default display is in block.
+        Lets Move to example display.html file...!
