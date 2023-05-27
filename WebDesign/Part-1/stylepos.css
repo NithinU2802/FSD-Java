@@ -1,0 +1,39 @@
+body{
+    background-color: pink;
+    padding: 10px;
+}
+
+body{
+    background-color: red;
+    padding: 10px;
+    margin: 9;
+    font-size: 30px;
+    position: relative;
+    height: 200px;
+}
+
+/* static position is default one */
+header{
+    background-color: violet;
+    margin: 10px;
+}
+
+nav{
+    background-color: violet;
+    margin: 10px;
+
+    /* position: relative;
+    left: 20px;
+    top: 10px; */
+
+    /* position: absolute;
+    top: 10px; */
+
+    position: fixed;
+    top: 10px;
+}
+
+footer{
+    background-color: violet;
+    margin: 10px;
+}
