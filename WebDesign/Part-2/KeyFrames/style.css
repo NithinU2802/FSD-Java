@@ -1,0 +1,52 @@
+
+
+body{
+    padding: 50px;
+}
+
+.box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    display: inline-block;
+
+    animation-name: demo;  
+    animation-duration: 2s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-direction: forwards;
+    animation-play-state: running;
+
+    /* animation-name: demo;  // Represent the name of the keyframe
+    animation-duration: 2s;    // duration to to end
+    animation-iteration-count: infinite;   // make interation infinite times
+    animation-timing-function: ease-in-out;  // used to represent transitions
+    animation-delay: 0s;   // wait for start 
+    animation-direction: forwards;  // make forward which make an clockwise direction
+    animation-play-state: running; */
+
+}
+
+@keyframes demo{
+    /* from{
+        height: 200px;
+    }
+    to{
+        height: 500px;
+        background-color: black;
+    } */
+    0%{
+        height: 200px;
+    }
+
+    40%{
+        background-color: yellow;
+    }
+
+    100%{
+        height: 500px;
+        background-color: black;
+    }
+}
