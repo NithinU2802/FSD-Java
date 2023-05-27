@@ -1,0 +1,39 @@
+.parent{
+    background-color: red;
+    height: 400px;
+    width: 400px;
+}
+
+.child{
+    background-color: blue;
+    height: 50%;
+    width: 50%;
+}
+
+.parent:hover .child{
+    background-color: blue;
+    /* transform: translateX(100%); quick move of inner square */
+    /* animation: demo 1s ease-in-out; animation: name duration time-fun */
+    animation-name: demo;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards; /* make it to orginal state */
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+}
+
+/* make inner square to move around outer one */
+@keyframes demo{
+    0%{
+        transform: translateX(0%);
+    }
+    33%{
+        transform: translateY(100%);
+    }
+    66%{
+        transform: translateX(100%) translateY(100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
