@@ -1,0 +1,29 @@
+
+ /* To make config the image towards center  */
+body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  Make postion as relative and rotate the container as some degree*/
+.container{
+    position: relative;
+    width: 100px;
+    height: 640px;
+    margin-top: 150px;
+    background: rgba(0,0,0,0);
+    transform: rotate(-39deg)skew(25deg)scale(.8);
+
+}
+
+/* make same container as absolute and deliver 100% of image*/
+.container{
+    position: absolute;
+    width: 100%;
+    transition: 0.5%;
+}
+
