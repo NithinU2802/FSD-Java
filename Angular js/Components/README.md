@@ -38,5 +38,11 @@ html tag that represent the actual working of the component available in the cod
 # Component MetaData 
 
     As Component MetaData accept some metadata objects that provides information about the component.
-        - Selector (css selector to find the component available in the template).
-        - We can Also change the name of the component as per or understanding that can be used in our code.
+        - Selector (css selector to find the component available in the template) ->We can Also change the name 
+of the component as per or understanding that can be used in our code.
+        - Template (provide markup for the webpage). 
+        - Template URL (To fetch external file contain in the project).
+        - Styles (these are inline defined view for the component).
+        - Style URL (list of css files to be tracked).
+        - Providers (Register Services for the component).
+        - Animation (As the name suggest to provide animation to the components).

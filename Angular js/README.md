@@ -125,5 +125,48 @@ develop Angular applications.
 
     Test Editor - Recommanded to use Visual Studio for working with Angular Projects...!
 
+" After learning the components and further prcess now move to futher topics "
 
 
+# Further Learnings.
+
+    - What is Dependency Injection..?
+    - Demerit of Not Using DI..?
+    - DI as Design Pattern.
+    - Demo working.
+
+
+# What is Dependency Injection...?
+
+    Consider a webpage, which was created by number of components. All these components performing common tasks 
+like accessing the database, rendering images on the view, etc...!
+    which was an amazing concept as mention below some this good to see..!
+        - To avoid rewriting of code, Angular Services can be used.
+        - These Services can then be injected into the components that requires that services.
+
+    Dependency Injection or DI keeps the code flexible, testable and mutable.
+    Classes can inherit external logic without knowing how to create it.
+    DI is benefits directives, pipes and components.
+
+
+# Demerit of Not Using DI 
+
+    Consider a PostalDetails class that is depenent on the Number and the Address class.
+    
+    Where Number and the Address has constuctor and PostalDetails to access the constructor.
+    - Now if the constuctor Number and the Address gets parameterized then we meet an problem to access the 
+Number and Address class.
+    - Also the code is not suitable for testing..!
+    
+
+# DI as a Design Pattern
+
+    As the same example instead of creating two different class make a design to access the elements of the 
+classes by the PostalDetails itself.
+
+
+    Normally, Components are used to ensure a good user experience.
+    - Inorder to execute task, using Services is ideal.
+    - A Component can delegate task like fetching data from the server, validating user input, or logging 
+directly to the console to the service.
+    - These task cab be made avaukabke to any component in the app.
