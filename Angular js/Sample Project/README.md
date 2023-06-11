@@ -48,5 +48,6 @@ elements.
     - Component must belong to the Ng Module.
     - Components implement life-cycle hooks.
 
-
-
+<div>
+<img width="960" alt="SampleOutput" src="https://github.com/NithinU2802/Full-Stack-Development/assets/106614289/f4f86885-abf7-4aca-add8-9956e8613a35">
+</div>
