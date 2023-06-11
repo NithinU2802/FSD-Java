@@ -46,3 +46,7 @@ of the component as per or understanding that can be used in our code.
         - Style URL (list of css files to be tracked).
         - Providers (Register Services for the component).
         - Animation (As the name suggest to provide animation to the components).
+   
+<div>
+<img width="960" alt="CompOutput" src="https://github.com/NithinU2802/Full-Stack-Development/assets/106614289/c9295ec9-0b54-4b77-bbd9-7fe55edb7e5d">
+</div>
