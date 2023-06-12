@@ -26,7 +26,7 @@ scalability and maintainability.
         - It uses HTML's syntax to express yout applications's components clearly.
         - Maintained by Google.
         - It is designed for web, desktop and mobile platform.
-    " Single page application means develop an webpage that continously develop and deliver the content of the 
+" Single page application means develop an webpage that continously develop and deliver the content of the 
 page instead of loading whole page as a part."
 
 
