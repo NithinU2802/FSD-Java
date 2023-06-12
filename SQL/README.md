@@ -24,7 +24,7 @@ and updated to perform various operations.
        - Make meaningful decision.
 
 
-# What is SQL>>?
+# What is SQL..?
  
         SQL is a standard  programming language used for operating relational databases and to 
 carry every operation such as inserting, manipulating, updating and retrieving data from relational
