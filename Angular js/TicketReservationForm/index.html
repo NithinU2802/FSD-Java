@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+ <head>
+ <title>Ticket Reservation Application</title>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+ </head>
+ <body ng-controller="myCtrl">
+ <h1>Ticket Reservation Application</h1>
+ <form id="myform" method="post">
+ <label for="name">Name</label>
+ <input type="text" ng-model="name"><br><br>
+ <label for="email">Email id</label>
+ <input type="email" ng-model="email"><br><br>
+ <label for="phone">Phone </label>
+ <input type="text" ng-model="phone"><br><br>
+ <label for="noofticket">No of Ticket </label>
+ <input type="text" ng-model="noofticket"><br><br>
+ <label for="destination">Destination </label>
+ <select ng-model="selectedDest" ng-options="x.c for x in destination">
+ </select><br><br>
+ <label for="amount">Amount </label>
+ <span>{{amount=selectedDest.rate*noofticket}}</span>
+ <br><br>
+ <button ng-click="save()">Book Ticket</button>
+ <h1>{{myWelcome}}</h1>
+ </form>
+ </body>
+ <script>
+ var app = angular.module('myApp', []);
+ app.controller('myCtrl', function($scope,$http) {
+ $scope.destination = [{
+ "c":"USA",
+ "rate": 10000
+ }, {
+ "c":"RUSSIA",
+ "rate": 20000
+ }, {
+ "c":"ENGLAND",
+ "rate": 30000
+ }]; 
+ $scope.selectedDest = $scope.destination[0];
+ $scope.save = function () {
+ $http.post(
+ "save.php",
+ {
+ 'name':$scope.name,
+ 'email': $scope.email,
+ 'phone':$scope.phone,
+ 'noofticket':$scope.noofticket,
+ 'destination' : $scope.selectedDest.c,
+ 'amount': $scope.amount
+ },
+ 'application/x-www-form-urlencoded;charset=utf-8;'
+ ).then(function mySuccess(response) {
+ $scope.myWelcome = response.data;
+ $scope.name = "";
+ $scope.email = "";
+ $scope.phone = "";
+ $scope.noofticket = "";
+ $scope.amount = "";
+ });
+ }
+ });
+ </script>
+</html>
